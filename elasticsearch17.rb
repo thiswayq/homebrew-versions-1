@@ -85,7 +85,7 @@ class Elasticsearch17 < Formula
           <string>#{plist_name}</string>
           <key>ProgramArguments</key>
           <array>
-            <string>#{HOMEBREW_PREFIX}/bin/elasticsearch</string>
+            <string>#{HOMEBREW_PREFIX}/opt/elasticsearch17/bin/elasticsearch</string>
             <string>--config=#{prefix}/config/elasticsearch.yml</string>
           </array>
           <key>EnvironmentVariables</key>
